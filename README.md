@@ -32,7 +32,7 @@ Repo Link: https://github.com/HudaKhaled/SpriteCloudApi
 # How to run tests from CI - Jenkins
 1. In the directory where "jenkins.war" is downloaded, run this command "java -jar jenkins.war" to run jenkins
 
-2. Open http://6d4c-45-247-92-207.ngrok.io/job/SpriteCloudApi/ to check the configured job
+2. Open http://0c11-45-247-92-207.ngrok.io/job/SpriteCloudApi/ to check the configured job
 
 3. Run these 3 commands
  - Create new branch, empty commit, to make a pull request to trigger the build on jenkins
@@ -45,4 +45,4 @@ Repo Link: https://github.com/HudaKhaled/SpriteCloudApi
 
 4. Then go to the repo on git, make pull request, and merge
 
-5. Check the triggered build on http://6d4c-45-247-92-207.ngrok.io/job/SpriteCloudApi/
+5. Check the triggered build on http://0c11-45-247-92-207.ngrok.io/job/SpriteCloudApi/
