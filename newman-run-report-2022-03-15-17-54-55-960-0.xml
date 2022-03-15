@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="SpriteCloudApi" tests="15" time="17.920">
+  <testsuite name="Pet Flow / Create Pet" id="a00e7bed-94ec-4536-a7d9-9c544c42a5a1" timestamp="2022-03-15T17:54:33.446Z" tests="4" failures="0" errors="0" time="1.700">
+    <testcase name="Validating schema" time="1.700" classname="SpriteCloudApi"/>
+    <testcase name="Status code is 200" time="1.700" classname="SpriteCloudApi"/>
+    <testcase name="Pet created successfully with correct pet id" time="1.700" classname="SpriteCloudApi"/>
+    <testcase name="Pet status is avaiable" time="1.700" classname="SpriteCloudApi"/>
+  </testsuite>
+  <testsuite name="Pet Flow / Get Pet byId" id="22aa4ae6-4303-4495-b6f4-0ff31f941b25" timestamp="2022-03-15T17:54:33.446Z" tests="2" failures="0" errors="0" time="1.155">
+    <testcase name="Status code is 200" time="1.155" classname="SpriteCloudApi"/>
+    <testcase name="Pet id returned correctly" time="1.155" classname="SpriteCloudApi"/>
+  </testsuite>
+  <testsuite name="Pet Flow / Update Pet" id="d42edf78-350e-4af0-bb44-35f327cec4ce" timestamp="2022-03-15T17:54:33.446Z" tests="3" failures="0" errors="0" time="1.152">
+    <testcase name="Status code is 200" time="1.152" classname="SpriteCloudApi"/>
+    <testcase name="Pet id returned correctly" time="1.152" classname="SpriteCloudApi"/>
+    <testcase name="Pet name returned correctly after update" time="1.152" classname="SpriteCloudApi"/>
+  </testsuite>
+  <testsuite name="Pet Flow / Delete Pet" id="df34d570-a6d8-4766-b813-5d9e60dfd6bf" timestamp="2022-03-15T17:54:33.446Z" tests="3" failures="0" errors="0" time="1.154">
+    <testcase name="Status code is 200" time="1.154" classname="SpriteCloudApi"/>
+    <testcase name="Check code returns 200 in response" time="1.154" classname="SpriteCloudApi"/>
+    <testcase name="Check message returned deleted pet id" time="1.154" classname="SpriteCloudApi"/>
+  </testsuite>
+  <testsuite name="Pet Flow / Get Pet byId" id="90868267-5bb9-4d59-a46c-6fda7feb2fbe" timestamp="2022-03-15T17:54:33.446Z" tests="2" failures="0" errors="0" time="1.157">
+    <testcase name="Status code is 404" time="1.157" classname="SpriteCloudApi"/>
+    <testcase name="Check message returns pet not found" time="1.157" classname="SpriteCloudApi"/>
+  </testsuite>
+  <testsuite name="Users Flow / createUser" id="53056781-7b66-49c8-92e7-07acd81772f7" timestamp="2022-03-15T17:54:33.446Z" tests="3" failures="0" errors="0" time="1.163">
+    <testcase name="Status code is 200" time="1.163" classname="SpriteCloudApi"/>
+    <testcase name="Check code returns 200 in response" time="1.163" classname="SpriteCloudApi"/>
+    <testcase name="message returns created user id" time="1.163" classname="SpriteCloudApi"/>
+  </testsuite>
+  <testsuite name="Users Flow / Find User" id="16fd6b07-ffc7-4828-89ea-2c97e671d85a" timestamp="2022-03-15T17:54:33.446Z" tests="3" failures="0" errors="0" time="1.160">
+    <testcase name="Status code is 200" time="1.160" classname="SpriteCloudApi"/>
+    <testcase name="Check username is returned correctly" time="1.160" classname="SpriteCloudApi"/>
+    <testcase name="Check user id is returned correctly" time="1.160" classname="SpriteCloudApi"/>
+  </testsuite>
+  <testsuite name="Users Flow / update user" id="92dc93fc-8694-4603-bde4-e067bb960373" timestamp="2022-03-15T17:54:33.446Z" tests="3" failures="0" errors="0" time="1.166">
+    <testcase name="Status code is 200" time="1.166" classname="SpriteCloudApi"/>
+    <testcase name="Check code returns 200 in response" time="1.166" classname="SpriteCloudApi"/>
+    <testcase name="message returns updated user id" time="1.166" classname="SpriteCloudApi"/>
+  </testsuite>
+  <testsuite name="Users Flow / Find user after update" id="cd9401d4-f15e-4f18-84b9-158ca8547beb" timestamp="2022-03-15T17:54:33.446Z" tests="3" failures="0" errors="0" time="1.158">
+    <testcase name="Status code is 200" time="1.158" classname="SpriteCloudApi"/>
+    <testcase name="Check username is returned after update" time="1.158" classname="SpriteCloudApi"/>
+    <testcase name="Check user id is returned correcly" time="1.158" classname="SpriteCloudApi"/>
+  </testsuite>
+  <testsuite name="Users Flow / Delete User" id="392f454a-57b9-4e5f-b291-f1065ad9f994" timestamp="2022-03-15T17:54:33.446Z" tests="3" failures="0" errors="0" time="1.165">
+    <testcase name="Check code returns 200 in response" time="1.165" classname="SpriteCloudApi"/>
+    <testcase name="Status code is 200" time="1.165" classname="SpriteCloudApi"/>
+    <testcase name="Check message returns deleted username" time="1.165" classname="SpriteCloudApi"/>
+  </testsuite>
+  <testsuite name="Users Flow / Find User Copy" id="baf54794-30aa-478f-8d68-f62bb41a8da3" timestamp="2022-03-15T17:54:33.446Z" tests="2" failures="0" errors="0" time="1.162">
+    <testcase name="Status code is 200" time="1.162" classname="SpriteCloudApi"/>
+    <testcase name="Check message returns user not found" time="1.162" classname="SpriteCloudApi"/>
+  </testsuite>
+  <testsuite name="Stores Flow / Place order" id="e8384a68-5e0c-4f80-9565-72faabafeae3" timestamp="2022-03-15T17:54:33.446Z" tests="3" failures="0" errors="0" time="1.162">
+    <testcase name="Status code is 200" time="1.162" classname="SpriteCloudApi"/>
+    <testcase name="Check order id returns correct" time="1.162" classname="SpriteCloudApi"/>
+    <testcase name="Check that order status is correct" time="1.162" classname="SpriteCloudApi"/>
+  </testsuite>
+  <testsuite name="Stores Flow / Find order" id="aec8b73b-ec2e-4991-9a2d-8223266b846b" timestamp="2022-03-15T17:54:33.446Z" tests="2" failures="0" errors="0" time="1.159">
+    <testcase name="Status code is 200" time="1.159" classname="SpriteCloudApi"/>
+    <testcase name="Check order id is returned correctly" time="1.159" classname="SpriteCloudApi"/>
+  </testsuite>
+  <testsuite name="Stores Flow / Delete order" id="15c5e105-abd6-481c-98bc-c3567885e0ab" timestamp="2022-03-15T17:54:33.446Z" tests="3" failures="0" errors="0" time="1.153">
+    <testcase name="Check code returns 200 in response" time="1.153" classname="SpriteCloudApi"/>
+    <testcase name="Status code is 200" time="1.153" classname="SpriteCloudApi"/>
+    <testcase name="Check message returns deleted order" time="1.153" classname="SpriteCloudApi"/>
+  </testsuite>
+  <testsuite name="Stores Flow / Find order" id="d2987cc2-2cbe-4182-b7f2-de54c9ced57c" timestamp="2022-03-15T17:54:33.446Z" tests="2" failures="0" errors="0" time="1.154">
+    <testcase name="Status code is 200" time="1.154" classname="SpriteCloudApi"/>
+    <testcase name="Check message returns order not found" time="1.154" classname="SpriteCloudApi"/>
+  </testsuite>
+</testsuites>
