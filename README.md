@@ -10,7 +10,7 @@ Repo Link: https://github.com/HudaKhaled/SpriteCloudApi
 
 # How to run tests manually
 
-1. Get clone from the repo using git clone command: git clone git@github.com:HudaKhaled/SpriteCloudApi.git
+1. Get clone from the repo using git clone command: git clone https://github.com/HudaKhaled/SpriteCloudApi.git
 
 2. Go to the repo on your local machine and check out master using this command: git checkout master
 
