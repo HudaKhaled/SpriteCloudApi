@@ -1,10 +1,10 @@
 # SpriteCloudApi
 
 #Reqirements
-Java v.15
-maven
-Jenkins
-Postman
+- Java v.15
+- maven
+- Jenkins
+- Postman
 
 Repo Link: https://github.com/HudaKhaled/SpriteCloudApi
 
